@@ -1,0 +1,43 @@
+.mainWrap {
+  position: relative;
+  display: flex;
+  top: 3rem;
+  justify-content: center;
+}
+
+.templateWrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.template {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 23rem;
+  height: 15rem;
+}
+
+.thumbnail:hover {
+  transform: scale(1.02);
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  opacity: 0.8;
+}
+
+.link {
+  text-decoration: none;
+  /* transform: translateY(-400%); */
+}
+
+.des {
+  display: block;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1.3rem;
+  color: #2e2e2e;
+}
