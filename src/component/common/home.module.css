@@ -1,0 +1,11 @@
+.home {
+  position: sticky;
+  float: right;
+  top: 1rem;
+  right: 1rem;
+}
+
+.goHome {
+  cursor: pointer;
+  color: #2b2b2b;
+}
