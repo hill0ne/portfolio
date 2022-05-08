@@ -1,25 +1,32 @@
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
+.header,
 .logo,
-.bars {
+.bars,
+.goHome {
+  position: relative;
   color: #2b2b2b;
   cursor: pointer;
 }
 
+.header {
+  display: flex;
+  top: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .logo {
-  position: relative;
   left: 3rem;
   margin: 0;
   font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .bars {
-  position: relative;
   font-size: 1.2rem;
   right: 3rem;
   margin-left: auto;
+}
+
+.goHome {
+  right: 1rem;
 }
