@@ -1,12 +1,18 @@
 import React from "react";
-import styles from "./home.module.css";
+import styles from "./homeB.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faHouse } from "@fortawesome/free-solid-svg-icons";
 
-const Home = () => {
+const HomeB = () => {
   return (
     <div className={styles.home}>
+      <Link to="/projects">
+        <FontAwesomeIcon
+          icon={faArrowLeft}
+          className={styles.arrowLeft}
+        ></FontAwesomeIcon>
+      </Link>
       <Link to="/">
         <FontAwesomeIcon
           icon={faHouse}
@@ -17,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeB;

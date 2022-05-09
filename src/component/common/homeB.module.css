@@ -1,0 +1,22 @@
+.home {
+  position: sticky;
+  float: right;
+  top: 1rem;
+  right: 1rem;
+}
+
+.goHome,
+.arrowLeft {
+  cursor: pointer;
+  color: var(--content-text-color);
+}
+
+.goHome:hover,
+.arrowLeft:hover {
+  transform: scale(1.2);
+}
+
+.arrowLeft {
+  color: var(--content-text-color);
+  margin-right: 1rem;
+}

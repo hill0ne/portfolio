@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./about.module.css";
 import { Link } from "react-router-dom";
-import Home from "../common/home";
+import HomeA from "../common/homeA";
 
 const About = () => {
   return (
     <>
-      <Home />
+      <HomeA />
       <br />
       <p className={styles.comment}>
         "고객에게 만족을 주던 서비스인에서

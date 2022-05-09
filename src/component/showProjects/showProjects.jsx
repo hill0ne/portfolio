@@ -5,12 +5,12 @@ import catchcarrots from "../../imgs/catchcarrots.png";
 import habittracker from "../../imgs/habit-tracker.png";
 import youtube from "../../imgs/youtube.png";
 import styles from "./showProjects.module.css";
-import Home from "../common/home";
+import HomeA from "../common/homeA";
 
 function ShowProjects(props) {
   return (
     <div>
-      <Home />
+      <HomeA />
       <div className={styles.mainWrap}>
         <section className={styles.templateWrap}>
           <div className={styles.template}>
@@ -20,7 +20,7 @@ function ShowProjects(props) {
             </Link>
           </div>
           <div className={styles.template}>
-            <Link to="/catchcarrots" className={styles.link}>
+            <Link to="/carrotgame" className={styles.link}>
               <img src={catchcarrots} className={styles.thumbnail}></img>
               <span className={styles.des}>Catch Carrots Game Project</span>
             </Link>

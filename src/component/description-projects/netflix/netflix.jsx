@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./netflix.module.css";
-import Home from "../../common/home";
+import Home from "../../common/homeA";
 import img_atomic from "../../../imgs/atomic.jpeg";
 import img_copy from "../../../imgs/copy.png";
 import Videos from "./videos";
+import HomeB from "../../common/homeB";
 
 const Netflix = () => {
   return (
     <>
-      <Home />
+      <HomeB />
       <div className={styles.header}>Netflix</div>
       <section className={styles.section}>
         <p className={styles.desText}>
