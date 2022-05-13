@@ -1,0 +1,11 @@
+.header {
+  position: relative;
+  top: 3rem;
+  width: 100%;
+  height: 10rem;
+  background-color: #efead8;
+  color: #ff8d29;
+  font-size: 6rem;
+  text-align: center;
+  line-height: 1.5em;
+}
