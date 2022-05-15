@@ -1,8 +1,8 @@
 .home {
   position: sticky;
   float: right;
-  top: 1rem;
-  right: 1rem;
+  top: 1.3rem;
+  right: 2rem;
 }
 
 .goHome {
@@ -11,5 +11,7 @@
 }
 
 .goHome:hover {
+  cursor: pointer;
   transform: scale(1.2);
+  /* transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); */
 }

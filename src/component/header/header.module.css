@@ -30,3 +30,9 @@
 .goHome {
   right: 1rem;
 }
+
+.bars:hover,
+.goHome:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}

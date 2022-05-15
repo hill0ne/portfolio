@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./homeA.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
-const Home = () => {
+const HomeA = () => {
   return (
     <div className={styles.home}>
       <Link to="/">
@@ -17,4 +17,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeA;
