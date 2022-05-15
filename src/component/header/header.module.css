@@ -1,5 +1,5 @@
 .header,
-.logo,
+.about,
 .bars,
 .goHome {
   position: relative;
@@ -14,11 +14,16 @@
   align-items: center;
 }
 
-.logo {
+.about {
   left: 3rem;
   margin: 0;
   font-size: 1.4rem;
   text-decoration: none;
+}
+
+.about:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .bars {

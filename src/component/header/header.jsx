@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <>
       <div className={styles.header}>
-        <Link to="/about" className={styles.logo}>
+        <Link to="/about" className={styles.about}>
           About hill0ne
         </Link>
         <FontAwesomeIcon
