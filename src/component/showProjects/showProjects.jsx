@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import netflix from "../../imgs/netflix.png";
 import catchcarrots from "../../imgs/catchcarrots.png";
-import habittracker from "../../imgs/habit-tracker.png";
+import todoList from "../../imgs/to-do-list.png";
 import youtube from "../../imgs/youtube.png";
 import styles from "./showProjects.module.css";
 import HomeA from "../common/homeA";
@@ -27,8 +27,8 @@ function ShowProjects(props) {
           </div>
           <div className={styles.template}>
             <Link to="/todolist" className={styles.link}>
-              <img src={habittracker} className={styles.thumbnail}></img>
-              <span className={styles.des}>Habbit Tracker project</span>
+              <img src={todoList} className={styles.thumbnail}></img>
+              <span className={styles.des}>To do List</span>
             </Link>
           </div>
           <div className={styles.template}>

@@ -24,6 +24,7 @@ const Videos = () => {
             className={styles.video_copy}
             loop
             autoPlay
+            muted
           ></video>
         </div>
       </section>
@@ -38,6 +39,7 @@ const Videos = () => {
             className={styles.video_input}
             loop
             autoPlay
+            muted
           ></video>
         </div>
       </section>
@@ -53,6 +55,7 @@ const Videos = () => {
             className={styles.video_select}
             loop
             autoPlay
+            muted
           ></video>
         </div>
         <div className={styles.video__wrap} style={videoStyle}>
@@ -61,6 +64,7 @@ const Videos = () => {
             className={styles.video_header}
             loop
             autoPlay
+            muted
           ></video>
         </div>
         <div className={styles.video__wrap} style={videoStyle}>
@@ -69,10 +73,10 @@ const Videos = () => {
             className={styles.video_promotion}
             loop
             autoPlay
+            muted
           ></video>
         </div>
       </section>
-      <footer className={styles.footer}></footer>
     </>
   );
 };

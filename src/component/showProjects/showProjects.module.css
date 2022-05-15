@@ -19,7 +19,7 @@
 }
 
 .thumbnail {
-  width: 23rem;
+  width: 22rem;
   height: 15rem;
 }
 
@@ -31,7 +31,6 @@
 
 .link {
   text-decoration: none;
-  /* transform: translateY(-400%); */
 }
 
 .des {
