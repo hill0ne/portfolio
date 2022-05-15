@@ -7,6 +7,9 @@ import Videos from "./videos";
 import HomeB from "../../common/homeB";
 
 const Netflix = () => {
+  const handleClick = () => {
+    window.open("https://github.com/hill0ne/learning_netflix", "_blank");
+  };
   return (
     <>
       <HomeB />
@@ -24,6 +27,14 @@ const Netflix = () => {
         </blockquote>
         <Videos />
       </section>
+      <footer className={styles.footer}>
+        <div className={styles.buttonWrap}>
+          <button className={styles.linkButton} onClick={handleClick}>
+            View Github
+          </button>
+          {/* <button className={styles.linkButton}>Try using</button> */}
+        </div>
+      </footer>
     </>
   );
 };

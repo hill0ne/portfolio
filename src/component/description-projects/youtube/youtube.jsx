@@ -1,16 +1,16 @@
 import React from "react";
+import styles from "./youtube.module.css";
 import HomeB from "../../common/homeB";
-import Videos from "../carrotGame/videos";
-import styles from "./carrotGame.module.css";
+import Videos from "./videos";
 
-const CarrotGame = () => {
+const Youtube = () => {
   const handleClick = () => {
-    window.open("https://github.com/hill0ne/catch-carrots-game", "_blank");
+    window.open("https://github.com/hill0ne/youtube-clonecoding", "_blank");
   };
   return (
     <>
       <HomeB />
-      <div className={styles.header}>Catch Carrots Game</div>
+      <div className={styles.header}>YouTube Clone Coding</div>
       <Videos />
       <footer className={styles.footer}>
         <div className={styles.buttonWrap}>
@@ -24,4 +24,4 @@ const CarrotGame = () => {
   );
 };
 
-export default CarrotGame;
+export default Youtube;
