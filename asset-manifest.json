@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1a37d580.css",
+    "main.js": "/portfolio/static/js/main.74879bfb.js",
+    "static/media/details.mp4": "/portfolio/static/media/details.b2ab0f3ee0136f9d3439.mp4",
+    "static/media/index.mp4": "/portfolio/static/media/index.f8e86b290d2957b6533d.mp4",
+    "static/media/youtube.png": "/portfolio/static/media/youtube.122a6cdef8e68d23aea3.png",
+    "static/media/promotion.mp4": "/portfolio/static/media/promotion.7a57c26b82a1dd50eeca.mp4",
+    "static/media/input.mp4": "/portfolio/static/media/input.c9e2df58204861702549.mp4",
+    "static/media/list.mp4": "/portfolio/static/media/list.77ffc0f8ddb966c2900d.mp4",
+    "static/media/catchcarrots.png": "/portfolio/static/media/catchcarrots.fb4799593bdc21914549.png",
+    "static/media/start.mp4": "/portfolio/static/media/start.a062bd99a4ab7ee0f2a3.mp4",
+    "static/media/win.mp4": "/portfolio/static/media/win.9d2653aa4cc85070b7c2.mp4",
+    "static/media/lose.mp4": "/portfolio/static/media/lose.48d2ffd46d356a9cc63d.mp4",
+    "static/media/select.mp4": "/portfolio/static/media/select.486ca14265f9b6e6393d.mp4",
+    "static/media/puppy.jpg": "/portfolio/static/media/puppy.e4c40f55a530c2a73c96.jpg",
+    "static/media/copy.mp4": "/portfolio/static/media/copy.cc6ef933caa39138a723.mp4",
+    "static/media/header.mp4": "/portfolio/static/media/header.29ff6ef82fac67a8986d.mp4",
+    "static/media/intro.mp4": "/portfolio/static/media/intro.69e56023311f9aa6eaf1.mp4",
+    "static/media/atomic.jpeg": "/portfolio/static/media/atomic.76e970142459d4abb383.jpeg",
+    "static/media/to-do-list.png": "/portfolio/static/media/to-do-list.96babeec35b098395da1.png",
+    "static/media/netflix.png": "/portfolio/static/media/netflix.5a32ae3e42a6f8ee29af.png",
+    "index.html": "/portfolio/index.html",
+    "main.1a37d580.css.map": "/portfolio/static/css/main.1a37d580.css.map",
+    "main.74879bfb.js.map": "/portfolio/static/js/main.74879bfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a37d580.css",
+    "static/js/main.74879bfb.js"
+  ]
+}
