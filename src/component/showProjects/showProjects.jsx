@@ -7,7 +7,7 @@ import youtube from "../../imgs/youtube.png";
 import styles from "./showProjects.module.css";
 import HomeA from "../common/homeA";
 
-function ShowProjects(props) {
+const ShowProjects = () => {
   return (
     <div>
       <HomeA />
@@ -41,6 +41,6 @@ function ShowProjects(props) {
       </div>
     </div>
   );
-}
+};
 
 export default ShowProjects;
