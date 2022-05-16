@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./videos.module.css";
-import video_youtube from "../../../videos/youtube.mp4";
+import video_youtube from "../../../videos/index.mp4";
 import video_details from "../../../videos/details.mp4";
 
 const Videos = () => {

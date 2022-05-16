@@ -12,7 +12,7 @@ const Netflix = () => {
   return (
     <>
       <HomeB />
-      <div className={styles.header}>Netflix</div>
+      <div className={styles.header}>Netflix UI Page</div>
       <section className={styles.section}>
         <p className={styles.desText}>
           본 프로젝트는 Javascript 없이 CSS 만으로 재사용 가능한 클래스 기반의

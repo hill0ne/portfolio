@@ -10,7 +10,7 @@ const Youtube = () => {
   return (
     <>
       <HomeB />
-      <div className={styles.header}>YouTube Clone Coding</div>
+      <div className={styles.header}>YouTube Page</div>
       <Videos />
       <footer className={styles.footer}>
         <div className={styles.buttonWrap}>

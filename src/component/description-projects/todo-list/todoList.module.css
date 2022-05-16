@@ -1,13 +1,14 @@
 .header {
   position: relative;
-  top: 3rem;
   width: 100%;
   height: 10rem;
   background-color: #fffa4d;
   color: #272727;
-  font-size: 6rem;
   text-align: center;
-  line-height: 1.7em;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 3.5em;
 }
 
 .footer {
